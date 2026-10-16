@@ -1,0 +1,32 @@
+.card {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card.blue {
+  background: linear-gradient(135deg, #2193b0, #6dd5ed);
+}
+
+.card.green {
+  background: linear-gradient(135deg, #56ab2f, #a8e063);
+}
+
+.card.orange {
+  background: linear-gradient(135deg, #ff9966, #ff5e62);
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
